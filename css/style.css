@@ -5,6 +5,16 @@
     src: url(../fonts/BlackHanSans-Regular.ttf);
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
 .marca {
     font-family: "BlackHanSans", sans-serif;
     font-size: 1.5rem;
@@ -44,6 +54,10 @@ i{
 .card-img-top{
     height: 200px;
     object-fit: cover;
+}
+
+.text-justify-custom{
+    text-align: justify;
 }
 
 @media (max-width: 767px){
