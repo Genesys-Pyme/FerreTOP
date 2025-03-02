@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FerreTOP</title>
+    <!--Agregar etiquetas meta -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container">
+              <a class="navbar-brand marca" href="./index.html">FerreTOP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/herramientas.html">Herramientas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/insumos.html">Insumos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div id="carouselFerreTop" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselFerreTop" data-bs-slide-to="0" class="active bg-light" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselFerreTop" data-bs-slide-to="1" class="bg-light" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselFerreTop" data-bs-slide-to="2" class="bg-light" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/banner0.jpg" class="d-block w-100 alturaBanner0" alt="Banner FerreTOP">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner1.jpg " class="d-block w-100 alturaBanner1" alt="Banner FerreTOP">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner2.jpg " class="d-block w-100 alturaBanner2" alt="Banner FerreTOP">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFerreTop" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselFerreTop" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section>
+            <article class="container">
+                <h2 class="text-center my-4">¿Quienes somos?</h2>
+                <div class="row justify-content-center my-3">
+                    <article class="col-12 col-md-6  my-3">
+                        <div class="card shadow h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-question-circle-fill text-info"></i>
+                                <p class="lead">Tu ferretería virtual de confianza en San Miguel de Tucuman, especializada en brindarte las mejores marcas del mercado en máquinas, herramientas y consumibles para herrería y carpintería.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6 my-3">
+                        <div class="card shadow h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-patch-check-fill i3"></i>
+                                <p class="lead">Estamos para acompañarte en cada proyecto, grande o pequeño, con las herramientas y materiales que necesitas para llevarlo a cabo con éxito.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </article>
+        </section>
+        <section class="bg-light-subtle">
+          <div class="container py-3">
+            <article>
+              <h2 class="text-center py-3">¿Por qué comprar en FerreTOP?</h2>
+              <div class="row justify-content-center gy-3">
+                <article class="col-12 col-md-6 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body text-center">
+                      <i class="bi bi-bag text-danger"></i>
+                      <h4>Variedad y Calidad </h4>
+                      <p class="lead">Tenemos un amplio catálogo con productos de las mejores marcas para asegurarte calidad y durabilidad en cada compra.</p>
+                    </div>
+                  </div>
+                </article>
+                <article class="col-12 col-md-6 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body text-center">
+                      <i class="bi bi-rocket-takeoff text-warning"></i>
+                      <h4>Envíos rápidos</h4>
+                      <p class="lead">Sabemos que el tiempo es clave. Por eso, ofrecemos entregas rápidas en toda la provincia para que no pierdas tiempo en tus proyectos.</p>
+                    </div>
+                  </div>
+                </article>
+                <article class="col-12 col-md-6 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body text-center">
+                      <i class="bi bi-currency-dollar text-success"></i>
+                      <h4>Promociones especiales</h4>
+                      <p class="lead">Aprovechá nuestros precios accesibles y promociones especiales que solo encontrarás en FerreTOP.</p>
+                    </div>
+                  </div>
+                </article>
+                <article class="col-12 col-md-6 col-lg-3">
+                  <div class="card shadow h-100">
+                    <div class="card-body text-center">
+                      <i class="bi bi-telephone text-primary"></i>
+                      <h4>Atención personalizada</h4>
+                      <p class="lead">¿Tenés dudas? Nuestro equipo está listo para asesorarte y ayudarte a elegir el producto ideal para tu necesidad.</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </article>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <div class="d-flex flex-column my-2">
+        <div class="text-center">
+          <p class="lead">Seguinos en nuestras redes:</p>
+        </div>
+        <div class="d-flex justify-content-center gap-3 mb-2">
+          <a href="#" class="link-light"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="link-light"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="link-light"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+        <p class="text-center">&copy; Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
