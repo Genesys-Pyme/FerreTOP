@@ -60,6 +60,7 @@ i{
     text-align: justify;
 }
 
+
 @media (max-width: 767px){
     .alturaBanner0, .alturaBanner1, .alturaBanner2 {
       height: 300px;
